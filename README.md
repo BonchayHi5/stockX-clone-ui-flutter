@@ -1,4 +1,4 @@
-# stockx_clone
+# stockx_clone_ui
 
 A new Flutter project.
 

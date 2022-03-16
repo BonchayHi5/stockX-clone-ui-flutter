@@ -8,14 +8,8 @@ class WebLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Flexible(
-          flex: 2,
-          child: Container(),
-        ),
-        SizedBox(
-          width: 1300,
-          child: child,
-        ),
+        Flexible(flex: 2, child: Container()),
+        SizedBox(width: 1300, child: child),
         Flexible(flex: 2, child: Container())
       ],
     );

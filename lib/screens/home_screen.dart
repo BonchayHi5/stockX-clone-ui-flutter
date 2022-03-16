@@ -224,6 +224,7 @@ class HomeScreen extends StatelessWidget {
                         "https://images.contentstack.io/v3/assets/blt818b0c67cf450811/bltefe96f4f277a4afb/6227b6a5252d0914d3acb5b0/Primary_Desktop.png?format=jpg&auto=webp&height=450",
                   ),
                 ),
+                ProductSection(title: "Recently Viewed", data: recentlyView),
                 const Text(
                   "Popular Brands",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -563,7 +564,11 @@ class HomeScreen extends StatelessWidget {
                   ),
                   const Text(
                     "StockX UI clone is for learning purpose",
-                    style: TextStyle(color: Colors.white, fontSize: 12),
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 12,
+                      fontStyle: FontStyle.italic,
+                    ),
                   )
                 ],
               ),

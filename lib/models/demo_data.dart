@@ -5,6 +5,50 @@ List<String> categories = [
   "https://images.contentstack.io/v3/assets/blt818b0c67cf450811/blt9fd4296f268a90bb/61561b4310d4154779bdb9ff/yzy.png?format=jpg&auto=webp&width=0.5",
   "https://images.contentstack.io/v3/assets/blt818b0c67cf450811/blt7680e1627e5b56e7/61561ba72b3bb345f7e7faed/lego.png?format=jpg&auto=webp&width=0.5",
 ];
+List<Map> recentlyView = [
+  {
+    "name": "Jordan 1 Mid 'Frosty' (W) ",
+    "price": "221",
+    "sold": "8254",
+    "img":
+        "https://ns.imgix.net/product/1625984593881_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+  },
+  {
+    "name": "Kyrie flytrap 4 EP 'Black White'",
+    "price": "298",
+    "sold": "2399",
+    "img":
+        "https://ns.imgix.net/product/1637412459601_NikeKyrieF0.png?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+  },
+  {
+    "name": "Jordan 1 Retro High OG 'Dark Marina Blue'",
+    "price": "221",
+    "sold": "8254",
+    "img":
+        "https://ns.imgix.net/product/1643053781216_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=2000",
+  },
+  {
+    "name": "SACAI X NIKE VAPORWAFFLE 'SAIL GUM'",
+    "price": "298",
+    "sold": "2399",
+    "img":
+        "https://ns.imgix.net/product/1629721889516_SacaixNike0.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+  },
+  {
+    "name": "AIR JORDAN 6 RETRO 'UNC HOME'",
+    "price": "221",
+    "sold": "8254",
+    "img":
+        "https://ns.imgix.net/product/1642056409927_AirJordan60.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+  },
+  {
+    "name": "ADIDAS YEEZY SLIDES 'PURE' (RESTOCK)",
+    "price": "298",
+    "sold": "2399",
+    "img":
+        "https://ns.imgix.net/product/1639723651321_adidasYeez0.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+  },
+];
 List<Map> popularBrand = [
   {
     "name": "Dunk Low 'Black White' 2021",

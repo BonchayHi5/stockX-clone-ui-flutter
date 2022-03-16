@@ -1,16 +1,3 @@
-# stockx_clone
+# stockx_clone_ui
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://firebasestorage.googleapis.com/v0/b/deep-link-5671f.appspot.com/o/Screen%20Shot%202022-03-16%20at%203.41.26%20PM.png?alt=media&token=423ab6e8-7561-42c3-becb-a45e1631eef7" >

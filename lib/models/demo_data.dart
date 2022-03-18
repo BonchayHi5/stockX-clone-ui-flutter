@@ -5,6 +5,24 @@ List<String> categories = [
   "https://images.contentstack.io/v3/assets/blt818b0c67cf450811/blt9fd4296f268a90bb/61561b4310d4154779bdb9ff/yzy.png?format=jpg&auto=webp&width=0.5",
   "https://images.contentstack.io/v3/assets/blt818b0c67cf450811/blt7680e1627e5b56e7/61561ba72b3bb345f7e7faed/lego.png?format=jpg&auto=webp&width=0.5",
 ];
+List<String> categoriesTitle = [
+  "Sneakers",
+  "Apparel",
+  "Electronics",
+  "Trading Cards",
+  "Collectibles",
+  "Accessories",
+  "NFTs",
+];
+
+List<String> appBarMenu = [
+  "Browse",
+  "News",
+  "About",
+  "Help",
+  "Login",
+];
+
 List<Map> recentlyView = [
   {
     "name": "Jordan 1 Mid 'Frosty' (W) ",

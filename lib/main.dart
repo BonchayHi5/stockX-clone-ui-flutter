@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:stockx_clone/screens/home_screen.dart';
+import 'package:stockx_clone/screens/home_screen/home_screen.dart';
 
 void main() {
   runApp(const MyApp());

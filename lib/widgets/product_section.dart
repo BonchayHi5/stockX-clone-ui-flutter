@@ -47,13 +47,17 @@ class ProductSection extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(top: 18.0, bottom: 24),
           child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            physics: const NeverScrollableScrollPhysics(),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: List.generate(
                 data.length,
                 (index) => Container(
                   height: 250,
-                  width: 195,
+                  width: 194,
+                  margin: EdgeInsets.only(
+                      right: MediaQuery.of(context).size.width * 0.014),
                   decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey[300]!)),
                   child: Column(children: [

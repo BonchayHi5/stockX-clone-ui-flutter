@@ -37,7 +37,6 @@ dependencies:
   get: ^4.6.1
   cached_network_image: ^3.2.0
   flutter_svg: ^1.0.3
-  universal_html: ^2.0.8
   ionicons: ^0.1.2
 
 dev_dependencies:

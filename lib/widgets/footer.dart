@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 
-import '../../../widgets/web_layout.dart';
+import 'web_layout.dart';
 
-class HomeFooter extends StatelessWidget {
-  const HomeFooter({Key? key}) : super(key: key);
+class Footer extends StatelessWidget {
+  const Footer({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         Container(
-          height: 390,
+          // height: 390,
           color: Colors.black87,
           child: WebLayout(
             child: Column(
@@ -31,44 +31,52 @@ class HomeFooter extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: List.generate(
                     6,
-                    (index) => SizedBox(
-                      height: 180,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: const [
-                          Text(
-                            "Air Jordan",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text(
-                            "Air Jordan 1",
-                            style: TextStyle(color: Colors.white, fontSize: 12),
-                          ),
-                          Text(
-                            "Jordan Golf Shoes",
-                            style: TextStyle(color: Colors.white, fontSize: 12),
-                          ),
-                          Text(
-                            "Air Jordan 3",
-                            style: TextStyle(color: Colors.white, fontSize: 12),
-                          ),
-                          Text(
-                            "Air Jordan 11",
-                            style: TextStyle(color: Colors.white, fontSize: 12),
-                          ),
-                          Text(
-                            "Air Jordan 4",
-                            style: TextStyle(color: Colors.white, fontSize: 12),
-                          ),
-                          Text(
-                            "Jordan 1 Mid",
-                            style: TextStyle(color: Colors.white, fontSize: 12),
-                          ),
-                        ],
+                    (index) => Flexible(
+                      child: SizedBox(
+                        height: 180,
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const [
+                            Text(
+                              "Air Jordan",
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              "Air Jordan 1",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                            Text(
+                              "Jordan Golf Shoes",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                            Text(
+                              "Air Jordan 3",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                            Text(
+                              "Air Jordan 11",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                            Text(
+                              "Air Jordan 4",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                            Text(
+                              "Jordan 1 Mid",
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 12),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -238,18 +246,21 @@ class HomeFooter extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
-                    SizedBox(height: 24),
-                    Text(
-                      "HELP | HOW IT WORKS | PRIVACY | TERMS | JOBS| CONTACT | PRODUCT | SUGGESTION | PRESS | ACCESSIBILITY | STATEMENT",
-                      style: TextStyle(color: Colors.white, fontSize: 14),
+                  children: [
+                    const SizedBox(height: 24),
+                    SizedBox(
+                      width: MediaQuery.of(context).size.width / 2,
+                      child: const Text(
+                        "HELP | HOW IT WORKS | PRIVACY | TERMS | JOBS| CONTACT | PRODUCT | SUGGESTION | PRESS | ACCESSIBILITY | STATEMENT",
+                        style: TextStyle(color: Colors.white, fontSize: 14),
+                      ),
                     ),
-                    SizedBox(height: 12),
-                    Text(
+                    const SizedBox(height: 12),
+                    const Text(
                       "EN EN-GB IT DE FR FR-CA ZH-CN ZH-TW JA KO ES-MX ES-US ES-ES",
                       style: TextStyle(color: Colors.white, fontSize: 14),
                     ),
-                    SizedBox(height: 24),
+                    const SizedBox(height: 24),
                   ],
                 ),
                 const Text(

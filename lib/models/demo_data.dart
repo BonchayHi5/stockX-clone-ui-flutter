@@ -50,7 +50,7 @@ List<Map> recentlyView = [
     "price": "298",
     "sold": "2399",
     "img":
-        "https://ns.imgix.net/product/1629721889516_SacaixNike0.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+        "https://ns.imgix.net/product/1653917816395_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
   },
   {
     "name": "AIR JORDAN 6 RETRO 'UNC HOME'",
@@ -94,7 +94,7 @@ List<Map> popularBrand = [
     "price": "298",
     "sold": "2399",
     "img":
-        "https://ns.imgix.net/product/1629721889516_SacaixNike0.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+        "https://ns.imgix.net/product/1653917816395_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
   },
   {
     "name": "AIR JORDAN 6 RETRO 'UNC HOME'",

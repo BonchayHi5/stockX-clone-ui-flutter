@@ -35,8 +35,7 @@ class AuthScreen extends StatelessWidget {
               children: [
                 SizedBox(height: MediaQuery.of(context).size.height * 0.05),
                 Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
+                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
                   width: 420,
                   decoration: BoxDecoration(
                     color: Colors.white,
@@ -52,16 +51,12 @@ class AuthScreen extends StatelessWidget {
                             child: Container(
                               height: 45,
                               decoration: const BoxDecoration(
-                                border: Border(
-                                  bottom: BorderSide(
-                                      width: 2.0, color: Colors.black),
-                                ),
+                                border: Border( bottom: BorderSide(width: 2.0, color: Colors.black)),
                               ),
                               child: const Center(
                                   child: Text(
                                 "Sign Up",
-                                style: TextStyle(
-                                    fontWeight: FontWeight.w600, fontSize: 14),
+                                style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14),
                               )),
                             ),
                           ),
@@ -99,8 +94,7 @@ class AuthScreen extends StatelessWidget {
                       const CustomTextField(hintText: "Password"),
                       const Text(
                         "At least 8 characters, 1 uppercase letter, 1 number & 1 symbol",
-                        style: TextStyle(
-                            fontSize: 12, fontWeight: FontWeight.w600),
+                        style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 16),

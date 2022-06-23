@@ -7,8 +7,7 @@ class ProductSection extends StatelessWidget {
   final String title;
   final List<Map> data;
 
-  const ProductSection({Key? key, required this.title, required this.data})
-      : super(key: key);
+  const ProductSection({Key? key, required this.title, required this.data}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,30 +20,16 @@ class ProductSection extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Text(
-                    title,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
+                  Text(title, style: const TextStyle(fontSize: 18,fontWeight: FontWeight.bold)),
                   const SizedBox(width: 4),
                   const Icon(Icons.help, size: 20)
                 ],
               ),
               Row(
                 children: [
-                  Text("See All ",
-                      style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.green[900])),
+                  Text("See All ", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.green[900])),
                   const SizedBox(width: 4),
-                  Icon(
-                    Icons.arrow_forward,
-                    size: 20,
-                    color: Colors.green[900],
-                  )
+                  Icon(Icons.arrow_forward,size: 20,color: Colors.green[900])
                 ],
               ),
             ],
@@ -55,10 +40,7 @@ class ProductSection extends StatelessWidget {
           child: SingleChildScrollView(
             scrollDirection: Axis.horizontal,
             child: GestureDetector(
-              onTap: (() => Get.to(
-                    () => const ProductDetail(),
-                    transition: Transition.fadeIn,
-                  )),
+              onTap: (() => Get.to(() => const ProductDetail(), transition: Transition.fadeIn)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: List.generate(
@@ -66,21 +48,14 @@ class ProductSection extends StatelessWidget {
                   (index) => Container(
                     height: 250,
                     width: 194,
-                    margin: EdgeInsets.only(
-                        right: MediaQuery.of(context).size.width * 0.014),
-                    decoration: BoxDecoration(
-                        border: Border.all(color: Colors.grey[300]!)),
+                    margin: EdgeInsets.only(right: MediaQuery.of(context).size.width * 0.014),
+                    decoration: BoxDecoration(border: Border.all(color: Colors.grey[300]!)),
                     child: Column(children: [
                       SizedBox(
                         height: 118,
                         child: Container(
                           margin: const EdgeInsets.symmetric(vertical: 16.0),
-                          child: Center(
-                            child: CachedNetworkImage(
-                              width: 130,
-                              imageUrl: data[index]['img'],
-                            ),
-                          ),
+                          child: Center(child: CachedNetworkImage(width: 130, imageUrl: data[index]['img'])),
                         ),
                       ),
                       Padding(
@@ -89,20 +64,10 @@ class ProductSection extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             data[index]["name"].length < 60
-                                ? Text(
-                                    data[index]["name"],
-                                    style: const TextStyle(
-                                        fontWeight: FontWeight.w600),
-                                  )
-                                : Text(
-                                    data[index]["name"].substring(0, 47) +
-                                        "...",
-                                    style: const TextStyle(
-                                        fontWeight: FontWeight.w600),
-                                  ),
+                                ? Text(data[index]["name"], style: const TextStyle(fontWeight: FontWeight.w600))
+                                : Text( data[index]["name"].substring(0, 47) + "...",style: const TextStyle(fontWeight: FontWeight.w600)),
                             Padding(
-                              padding:
-                                  const EdgeInsets.symmetric(vertical: 8.0),
+                              padding: const EdgeInsets.symmetric(vertical: 8.0),
                               child: Text(
                                 "Lowest Ask",
                                 style: TextStyle(
@@ -113,8 +78,7 @@ class ProductSection extends StatelessWidget {
                             ),
                             Text(
                               "\$${data[index]["price"]}",
-                              style: const TextStyle(
-                                  fontSize: 18, fontWeight: FontWeight.bold),
+                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                             ),
                             Container(
                               margin: const EdgeInsets.symmetric(vertical: 8.0),
@@ -127,14 +91,10 @@ class ProductSection extends StatelessWidget {
                                   Container(
                                     height: 10,
                                     width: 10,
-                                    decoration: BoxDecoration(
-                                        color: Colors.green[900],
-                                        shape: BoxShape.circle),
-                                  ),
+                                    decoration: BoxDecoration(color: Colors.green[900], shape: BoxShape.circle)),
                                   Text(
                                     " " + data[index]["sold"] + " Sold",
-                                    style: const TextStyle(
-                                        fontWeight: FontWeight.w500),
+                                    style: const TextStyle(fontWeight: FontWeight.w500),
                                   )
                                 ],
                               ),

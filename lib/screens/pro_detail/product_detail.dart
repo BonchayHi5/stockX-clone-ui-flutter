@@ -16,8 +16,7 @@ class ProductDetail extends StatelessWidget {
             children: [
               CachedNetworkImage(
                 fit: BoxFit.cover,
-                imageUrl:
-                    "https://ns.imgix.net/product/1614083504080_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
+                imageUrl: "https://ns.imgix.net/product/1614083504080_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90&h=200",
               ),
             ],
           ),

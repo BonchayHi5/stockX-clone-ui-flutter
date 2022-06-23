@@ -47,33 +47,27 @@ class Footer extends StatelessWidget {
                             ),
                             Text(
                               "Air Jordan 1",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 12),
+                              style: TextStyle(color: Colors.white, fontSize: 12),
                             ),
                             Text(
                               "Jordan Golf Shoes",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 12),
+                              style: TextStyle(color: Colors.white, fontSize: 12),
                             ),
                             Text(
                               "Air Jordan 3",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 12),
+                              style: TextStyle(color: Colors.white, fontSize: 12),
                             ),
                             Text(
                               "Air Jordan 11",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 12),
+                              style: TextStyle(color: Colors.white, fontSize: 12),
                             ),
                             Text(
                               "Air Jordan 4",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 12),
+                              style: TextStyle(color: Colors.white, fontSize: 12),
                             ),
                             Text(
                               "Jordan 1 Mid",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 12),
+                              style: TextStyle(color: Colors.white, fontSize: 12),
                             ),
                           ],
                         ),
@@ -90,16 +84,14 @@ class Footer extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.white, width: 2)),
+                      decoration: BoxDecoration(border: Border.all(color: Colors.white, width: 2)),
                       width: 200,
                       height: 50,
                       margin: const EdgeInsets.only(bottom: 24.0),
                       child: const Center(
                         child: Text(
                           "Cambodia | English | \$ USD",
-                          style: TextStyle(
-                              color: Colors.white, fontWeight: FontWeight.bold),
+                          style: TextStyle( color: Colors.white, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ),
@@ -183,8 +175,7 @@ class Footer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text("Use Assistive Technology",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 14)),
+                              style: TextStyle(color: Colors.white, fontSize: 14)),
                           const SizedBox(height: 8),
                           SizedBox(
                             width: 120,
@@ -224,8 +215,7 @@ class Footer extends StatelessWidget {
                             padding: EdgeInsets.only(top: 2.0),
                             child: Text(
                               "Proudly Built in Detroit",
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 14),
+                              style: TextStyle(color: Colors.white, fontSize: 14),
                             ),
                           ),
                         ],
